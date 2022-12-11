@@ -1,0 +1,21 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9375rem;
+    font-family: $theme-text-font;
+}
+
+main {
+    max-width: 57.5rem;
+    margin: 1.3rem;
+}
+
+:is(a, button, input, textarea, select, details, summary) {
+    &:focus-visible {
+        outline: $theme-very-light-gray dotted 0.188rem;
+        outline-offset: 0.188rem;
+    }
+}

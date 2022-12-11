@@ -1,0 +1,26 @@
+.attribution {
+    margin-block: 0.5rem;
+    font-size: 0.735rem;
+    text-align: center;
+
+    a {
+        color: $theme-black-color;
+        font-weight: 700;
+
+        &:focus-visible {
+            outline-color: $theme-black-color;
+        }
+    }
+
+    @include media-double-breakpoint-up(59.375em, min-width, 46.875em, min-height) {
+        position: fixed;
+        bottom: 0.325rem;
+        width: 100%;
+    }
+
+    @include media-hover-effect() {
+        & a:hover  {
+            color: darken($theme-black-color, 0.1);
+        }
+    }
+}

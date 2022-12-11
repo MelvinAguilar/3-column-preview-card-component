@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    color: $theme-white-color;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    flex-wrap: wrap;
+
+    min-height: 31.2844rem;
+
+    @include media-breakpoint-up(56.25em) {
+        // Only for design propourses
+        margin-top: 2.625rem;
+    }
+}
+
+.card {
+    padding: 3rem;
+    flex: 1 1 18rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+
+    &:nth-of-type(1) {
+        background-color: $theme-bright-orange;
+    }
+
+    &:nth-of-type(2) {
+        background-color: $theme-dark-cyan;
+    }
+
+    &:nth-of-type(3) {
+        background-color: $theme-very-dark-cyan;
+    }  
+
+    &__image {
+        max-width: 4rem;
+        margin-bottom: 0.5rem;
+    }
+
+    &__title {
+        font-family: $theme-heading-font;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+
+    &__description {
+        color: $theme-transparent-white;
+        line-height: 1.5rem;
+    }
+
+    &__link {
+        margin-top: auto;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        transition: all $theme-transition;
+        
+        border: 0.125rem solid $theme-white-color;
+        padding: 0.8rem 1.9rem;
+        border-radius: 2rem;
+        width: fit-content;
+        background-color: $theme-white-color;
+        color: $theme-black-color;
+        mix-blend-mode: screen;
+
+        @include media-hover-effect {
+            &:hover {
+                background-color: transparent;
+                color: $theme-white-color;
+                mix-blend-mode: lighten;
+            }
+        }  
+    }
+}
+

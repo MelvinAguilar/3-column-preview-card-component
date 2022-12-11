@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&family=Big+Shoulders+Display:wght@700&display=swap');
+
+// Font Family
+$theme-text-font: "Lexend Deca", sans-serif;
+$theme-heading-font: "Big Shoulders Display", sans-serif;
+
+// Primary colors
+$theme-bright-orange: hsl(31, 77%, 52%);
+$theme-dark-cyan: hsl(184, 100%, 22%);
+$theme-very-dark-cyan: hsl(179, 100%, 13%);
+$theme-white-color: hsl(0, 0%, 100%);
+$theme-black-color: hsl(0, 0%, 0%);
+
+//Neutral
+$theme-transparent-white: hsla(0, 0%, 100%, 0.75);
+$theme-very-light-gray: hsl(0, 0%, 95%);
+
+// Transition
+$theme-transition: 0.2s ease-in-out;
+
+// Breakpoints
+$screen-sm: 576px;      // Large smartphones
+$screen-md: 768px;      // Small tablets
+$screen-lg: 992px;      // Tablets
+$screen-xl: 1200px;     // Desktops
+$screen-xxl: 1440px;    // Large desktops
+$screen-rwd: 405px;     // Custom device
