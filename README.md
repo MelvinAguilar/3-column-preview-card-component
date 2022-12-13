@@ -1,14 +1,45 @@
-# Frontend Mentor - 3-column preview card component solution
+<div id="top"></div>
 
+<div align="center">
+
+  <img src="https://www.frontendmentor.io/static/images/logo-mobile.svg" alt="frontendmentor" width="80">
+
+  <h2 align="center">3-column preview card component solution</h2>
+  <p align="center">
+    <a href="https://www.frontendmentor.io/solutions/3column-preview-card-component--xxamoxSKH"><strong>Frontend Mentor Challenge</strong></a>
+    <br />
+    <br />
+    <a href="https://3-column-preview-card-component-melvin.vercel.app/">View Demo</a>
+    ·
+    <a href="https://github.com/MelvinAguilar/3-column-preview-card-component/issues" target="_blank">Report Bug</a>
+    ·
+    <a href="https://github.com/MelvinAguilar/3-column-preview-card-component/issues" target="_blank">Request Feature</a>
+  </p>
+</div>
+
+<!-- Bagdes -->
+<div align="center">
+  <!-- Profile -->
+  <a href="https://www.frontendmentor.io/profile/MelvinAguilar">
+    <img src="https://img.shields.io/badge/Profile-Melvin%20Aguilar-07043B?style=for-the-badge&logo=frontendmentor" alt="Melvin Profile">
+  </a>
+  <!-- Status -->
+  <a href="#">
+    <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Status Completed">
+  </a>
+
+</div>
+
+#
 
 ![](./design/desktop-preview.jpg)
 
-This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 <h2 align="center">Links</h2>
 
-<!-- - Solution URL: [Profile Card Component (SASS + Flexbox) | Frontend Mentor](https://www.frontendmentor.io/solutions/profile-card-component-sass-flexbox-7cj7s_CvT0)
-- Live Site URL: [https://profile-card-component-melvinaguilar.vercel.app/](https://profile-card-component-melvinaguilar.vercel.app/) -->
+- Solution URL: [3-Column Card Component (SASS + Flexbox + BEM) | Frontend Mentor](https://www.frontendmentor.io/solutions/3column-preview-card-component--xxamoxSKH)
+- Live Site URL: [https://3-column-preview-card-component-melvin.vercel.app/](https://3-column-preview-card-component-melvin.vercel.app/)
 
 <br>
 
@@ -38,7 +69,6 @@ Users should be able to:
 - Flex Layout
 - BEM naming convention
 - [SASS](https://sass-lang.com/documentation/modules) - Sass modules
-
 
 ### Useful resources
 
